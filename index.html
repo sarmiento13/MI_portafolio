@@ -1,32 +1,68 @@
-<h1>Mis datos personales</h1>
-<h2><i>Estos son mis datos generales:</i></h2>
-<ul>
-    <li> Mi nombre es <strong> Barrientos Sarmiento, william</strong></li>
-    <li>  </li>
-</ul>
 
-<h2><i>Mis hobies</i></h2>
-<ul>
-    <li> jugar futbol</li>
-    <li> jugar voley</li>
-    <li> juegos en linea</li>
-    <li> jugar ajedres</li>
-</ul>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portada</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="h1">MI PORTAFOLIO</h1>
+        <p class="descripcion"><strong>N.A:</strong> william Barrientos Sarmiento</p>
+    </header>
 
-<h2><i>Mis pasatiempos</i></h2>
-<ol>
-    <li> escuchar musica</li>
-    <li> ver videos</li>
-    <li> salir con amigos</li>
-    <li> salir al campo</li>
-</ol>
+    <section class="logo">
+        <a href="https://wa.me/+51 940459117" target="_blank"><img src="./assets/whatsapp.svg" alt="whatsapp" width="5%"></a>
+        <a href="https://t.me/usuario" target="_blank"><img src="./assets/telegram.svg" alt="telegram" width="5%"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="./assets/facebook.svg" alt="telegram" width="5%"></a>
+    </section>
+    <main>
+        <section class="parrafo">
+            <h2>Descripcion</h2>
+            <p>Soy un apasionado al futbol, me encanta correr y ser muy amigable con mis compañeros, estudio en el tecnologico Jose Maria Arguedas en la espesialidad de Arquitectura de Plataformas y Servicios de TIC</p>
+        </section>
 
-<h2><i>Mis actividades favoritas</i></h2>
-<ol>
-    <li> ir al gimnasio</li>
-    <li> Entrenar futbol</li>
-    <li> correr</li>
-    <li> dormir</li>
-    <li> jugar video juegos </li>
-</ol>
-<img src="./assets/barca.jpg" alt="aqui esta una imagen de un club que me gusta" width="500px">
+        <section class="info" onclick="window.location.href='pages/hobbies.html'">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>jugar futbol</li>
+                <li>jugar voley</li>
+                <li>juegos en linea</li>
+                <li>juegos de mesa</li>
+            </ul>
+        </section>
+
+        <section class="info" onclick="window.location.href='pages/pasatiempos.html'">
+            <h2>Pasatiempos</h2>
+            <ul>
+                <li>escuchar musica</li>
+                <li>ver videos</li>
+                <li>salir con amigos</li>
+                <li>salir al campo</li>
+            </ul>
+        </section>
+
+        <section class="info" onclick="window.location.href='pages/actividades_favoritas.html'">
+            <h2>Actividades favoritas</h2>
+            <ul>
+                <li>ir al gimnasio</li>
+                <li>Optimizar sitios web para SEO</li>
+                <li>Entrenar futbol</li>
+                <li>correr</li>
+                <li>dormir</li>
+                <li>jugar video juegos</li>
+            </ul>
+        </section>
+
+        <section class="imagen">
+            <h2>Mi Imagen</h2>
+            <img src="./assets/barca.jpeg" alt="Una imagen de mi equipo favorito">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 sarmiento | Mi Página Personal donde puedes encontrar cosas que me gustan hacer</p>
+    </footer>
+</body>
+</html>
